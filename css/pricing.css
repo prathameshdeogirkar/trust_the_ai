@@ -43,5 +43,52 @@ body {
     cursor: pointer;
     border-radius: 10px;
   }
+
+  .pricing-title {
+    font-size: 15px;
+    color: gray;
+    padding: 5px 10px;
+    width: 50px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin: 0px auto;
+  }
+
+  .btn-outline {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .pricing {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .pricing-subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 12x;
+  }
+
+  .toggle {
+    margin: 20px auto;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 50px;
+  }
+  
+  .toggle label {
+    margin: 0 10px;
+  }
+  
+  .save {
+    color: #00ff95;
+    font-weight: bold;
+  }
   
   
