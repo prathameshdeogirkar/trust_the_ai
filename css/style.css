@@ -9,6 +9,8 @@
 body {
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
+    background-color: #000000;
 }
 
 .hero-section {
@@ -180,4 +182,54 @@ body {
 .small-info-card p {
     color: white;
     font-size: 1.5em;
+}
+
+.sec-page{
+    height: 100vh;
+    width: 100vw;
+}
+
+.text-container{
+    height: 25vh;
+    width: 100vw;
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 800;
+}
+
+.text-container .text-1{
+    color: white;
+}
+
+.text-container .text-2{
+    color:#13d386;
+}
+
+
+.comma-container{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.comma-container span{
+    height: 100%;
+    font-size: 25em;
+    color: #13d386ac;
+    margin: 0 20vw;
+}
+
+.comma-info-container{
+    height: 100%;
+    width: 55%;
+    background-color:black;
+    box-shadow: 0px 20px 10px #31313189;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-20%);
 }
