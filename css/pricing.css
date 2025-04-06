@@ -75,7 +75,7 @@ body {
   }
 
   .toggle {
-    margin: 20px auto;
+    margin: 50px auto;
     width: 300px;
     padding: 8px;
     border: 1px solid gray;
@@ -87,8 +87,77 @@ body {
   }
   
   .save {
-    color: #00ff95;
+    color: gray;
+    font-size: 15px;
     font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
   
+  .plans-card {
+    width: 270px;
+    padding: 10px 20px;
+    border-top: 0.5px solid rgba(128, 128, 128, 0.586);
+    
+    border-radius: 10px;
+    background-color: #15181e;
+  }
+
+  .free-title {
+    margin-top: 20px;
+    color: gray;
+  }
+
+  .dollar {
+    font-size: 35px ;
+  }
+
+  .dollar span {
+    font-size: 17px;
+    margin-left: 5px;
+  }
+
+  .card-text {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+  }
   
+  .big-btn {
+    background-color: #fff;
+    color: black;
+    width: 220px;
+    margin-left: 37px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }
+
+  .plans-card hr {
+    margin: 30px 0px;
+    border: 1px solid gray;
+  }
+
+  .down-titles-heading {
+    font-size: 15px;
+  }
+  
+  .down-titles {
+    color: gray;
+    font-size: 15px;
+  }
+
+  .active-plan {
+    background: linear-gradient(360deg, #00ff95, #0f111594);
+    border: 1px solid #00ff95;
+    box-shadow: 0 0 20px #00ff95;
+    color: #fff;
+  }
