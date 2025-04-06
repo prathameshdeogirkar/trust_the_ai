@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f1115;
+    color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0f1115;
+  }
+
+  .brand-logo {
+    height: 23px;
+  }
+  
+  .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .navbar li {
+    cursor: pointer;
+  }
+  
+  .btn {
+    background-color: #00ff95;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  
