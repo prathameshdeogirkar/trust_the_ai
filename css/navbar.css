@@ -31,8 +31,10 @@ body {
     list-style: none;
   }
   
-  .navbar li {
-    cursor: pointer;
+  .nav-links {
+    text-decoration: none;
+    color: inherit;
+    
   }
   
   .btn {
@@ -80,5 +82,16 @@ body {
 @media (max-width: 480px) {
   .navbar {
     padding: 15px;
+  }
+
+  .navbar ul {
+    font-size: 12px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btn {
+    max-width: 150px;
+    padding: 7px 10px;
   }
 }
