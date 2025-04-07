@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f1115;
+    color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0f1115;
+  }
+
+  .brand-logo {
+    height: 23px;
+  }
+  
+  .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .navbar li {
+    cursor: pointer;
+  }
+  
+  .btn {
+    background-color: #00ff95;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .pricing-title {
+    font-size: 15px;
+    color: gray;
+    padding: 5px 10px;
+    width: 50px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin: 0px auto;
+  }
+
+  .btn-outline {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  
+@media (max-width: 1024px) {
+    .navbar {
+      flex-direction: column;
+      gap: 15px;
+      padding: 20px;
+    }
+  
+    .navbar ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 15px;
+  }
+}
