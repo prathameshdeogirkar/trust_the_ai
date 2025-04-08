@@ -3,45 +3,252 @@ body {
     font-family: Arial, sans-serif;
     background-color: #0f1115;
     color: #fff;
+}
+  
+  .pricing {
+    text-align: center;
+    margin-top: 60px;
   }
   
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #0f1115;
-  }
-
-  .brand-logo {
-    height: 23px;
-  }
-  
-  .brand {
+  .pricing-subtitle {
     font-size: 24px;
     font-weight: bold;
-    color: whitesmoke;
+    margin: 12x;
+  }
+
+  .toggle {
+    margin: 50px auto;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 50px;
   }
   
-  .navbar ul {
+  .toggle label {
+    margin: 0 10px;
+  }
+  
+  .save {
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
   }
   
-  .navbar li {
-    cursor: pointer;
-  }
-  
-  .btn {
-    background-color: #00ff95;
-    color: black;
-    border: none;
+  .plans-card {
+    width: 270px;
     padding: 10px 20px;
-    cursor: pointer;
+    border-top: 0.5px solid rgba(128, 128, 128, 0.586);
+    
     border-radius: 10px;
+    background-color: #15181e;
+  }
+
+  .free-title {
+    margin-top: 20px;
+    color: gray;
+  }
+
+  .dollar {
+    font-size: 35px ;
+  }
+
+  .dollar span {
+    font-size: 17px;
+    margin-left: 5px;
+  }
+
+  .card-text {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
   }
   
+  .big-btn {
+    background-color: #fff;
+    color: black;
+    width: 220px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }
+
+  .plans-card hr {
+    margin: 30px 0px;
+    border: 1px solid gray;
+  }
+
+  .down-titles-heading {
+    font-size: 15px;
+  }
   
+  .down-titles {
+    color: gray;
+    font-size: 15px;
+  }
+
+  .active-plan {
+    background: linear-gradient(360deg, #00ff95, #0f111594);
+    border: 1px solid #00ff95;
+    box-shadow: 0 0 20px #00ff95;
+    color: #fff;
+  }
+
+
+
+
+  
+
+@media (max-width: 1024px) {
+
+  .container {
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-subtitle {
+    font-size: 20px;
+  }
+
+  .dollar {
+    font-size: 30px;
+  }
+
+  .dollar span {
+    font-size: 14px;
+  }
+
+  .big-btn {
+    width: 200px;
+    
+  }
+
+  .plans-card {
+    width: 250px;
+    
+  }
+
+  .toggle {
+    width: 70%;
+  }
+
+  .card-text {
+    font-size: 13px;
+    margin: 8px 5px;
+  }
+
+  .plans-card hr {
+    margin: 20px 0px;
+  }
+}
+
+@media (max-width: 657px) {
+  .plans-card {
+    width: 200px;
+    padding: 5px 10px;
+  }
+
+  .free-title {
+    margin: 5px 0px;
+  }
+
+  .big-btn {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 7px;
+  }
+
+  .plans-card hr {
+    margin: 15px 0px;
+  }
+
+  .down-titles-heading {
+    font-size: 14px;
+  }
+
+  .down-titles {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+  .brand {
+    font-size: 20px;
+  }
+
+  .navbar ul {
+    font-size: 12px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .pricing-title {
+    font-size: 13px;
+    width: 50px;
+    padding: 4px 12px;
+  }
+
+  .pricing-subtitle {
+    font-size: 18px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .plans-card {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .big-btn {
+    font-size: 13px;
+    padding: 5px 10px;
+    width: 70%;
+  }
+
+  .toggle label {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .toggle {
+    width: 80%;
+    padding: 5px;
+  }
+
+  .free-title {
+    width: 50%;
+    
+  }
+  
+}
